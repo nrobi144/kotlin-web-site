@@ -334,6 +334,8 @@
             <toc-element toc-title="Participate" id="eap.md"/>
             <toc-element toc-title="Install the Kotlin EAP Plugin" id="install-eap-plugin.md"/>
             <toc-element id="configure-build-for-eap.md"/>
+            <toc-element id="mpp-add-dependencies.md"/>
+            <toc-element id="mpp-supported-platforms.md"/>
         </toc-element>
         <toc-element id="contribute.md"/>
         <toc-element toc-title="Kotlin evolution">
