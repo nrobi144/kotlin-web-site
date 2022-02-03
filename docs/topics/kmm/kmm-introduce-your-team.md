@@ -1,4 +1,4 @@
-[//]: # (title: Introduce your team to KMM)
+[//]: # (title: Introduce your team to Kotlin Multiplatform Mobile)
 
 These recommendations will help you introduce your team to KMM:
 

@@ -1,4 +1,4 @@
-[//]: # (title: Migrating multiplatform projects to Kotlin 1.4.0)
+[//]: # (title: Hierarchical project structure)
 
 Kotlin 1.4.0 comes with lots of features and improvements in the tooling for multiplatform programming. 
 Some of them just work out of the box on existing projects, and some require additional configuration steps. 
