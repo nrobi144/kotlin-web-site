@@ -6,7 +6,7 @@
 {type="note"}
 
 Support for multiplatform programming is one of Kotlin’s key benefits. It reduces time spent writing and maintaining the 
-same code for [different platforms](mpp-supported-platforms.md) while retaining the flexibility and benefits of native programming.   
+same code for [different platforms](mpp-dsl-reference.md#targets) while retaining the flexibility and benefits of native programming.   
 
 Learn more about [Kotlin Multiplatform benefits](multiplatform.md).
 
@@ -36,7 +36,7 @@ Once you have gained some experience with Kotlin Multiplatform and want to know 
 
 * [Set up targets manually](mpp-set-up-targets.md) for your Kotlin Multiplatform project.
 
-* [Add dependencies](mpp-add-dependencies.md) on the standard, test, or another kotlinx library.
+* [Add dependencies](kmm-add-dependencies.md) on the standard, test, or another kotlinx library.
 
 * [Configure compilations](mpp-configure-compilations.md) for production and test purposes in your project.
 

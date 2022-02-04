@@ -7,7 +7,7 @@ The authors of these libraries usually provide guides for adding their dependenc
 > When using a multiplatform library that does not have [hierarchical structure support](mpp-share-on-platforms.md#share-code-on-similar-platforms) in a multiplatform project that does, 
 > you won't be able to use IDE features, such as code completion and highlighting, for the shared iOS source set. 
 > 
-> This is a [known issue](https://youtrack.jetbrains.com/issue/KT-40975), and we are working on resolving it. In the meantime, you can use [this workaround](#workaround-to-enable-ide-support-for-the-shared-ios-source-set). 
+> This is a [known issue](https://youtrack.jetbrains.com/issue/KT-40975), and we are working on resolving it. In the meantime, you can use [this workaround](kmm-add-macos-dependencies.md#workaround-to-enable-ide-support-for-the-shared-ios-source-set)
 >
 {type="note"}
 
@@ -15,7 +15,9 @@ Learn more about [configuring dependencies](gradle.md#configuring-dependencies).
 
 Check out this [community-maintained list of Kotlin Multiplatform libraries](https://libs.kmp.icerock.dev/).
 
-## Dependency on the standard library
+## Dependency on a Kotlin library
+
+### Dependency on the standard library
 
 A dependency on a standard library (`stdlib`) in each source set is added automatically. The version
 of the standard library is the same as the version of the `kotlin-multiplatform` plugin.
@@ -26,14 +28,14 @@ the `kotlinOptions.jvmTarget` [compiler option](gradle.md#compiler-options) of y
 
 Learn how to [change the default behavior](gradle.md#dependency-on-the-standard-library).
 
-## Set dependencies on test libraries
+### Set dependencies on test libraries
 
 The [`kotlin.test` API](https://kotlinlang.org/api/latest/kotlin.test/) is available for multiplatform tests. When you [create a multiplatform project](mpp-create-lib.md),
 the Project Wizard automatically adds test dependencies to common and platform-specific source sets.
 
 If you didn’t use the Project Wizard to create your project, you can [add the dependencies manually](gradle.md#set-dependencies-on-test-libraries).
 
-## Set a dependency on a kotlinx library
+### Set a dependency on a kotlinx library
 
 If you use a kotlinx library and need a platform-specific dependency, you can use platform-specific variants
 of libraries with suffixes such as `-jvm` or `-js`, for example, `kotlinx-coroutines-core-jvm`. You can also use the library

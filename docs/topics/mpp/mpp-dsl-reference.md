@@ -44,13 +44,13 @@ Inside `kotlin`, you can write the following blocks:
 | --- | --- |
 | _\<targetName\>_ |Declares a particular target of a project. The names of available targets are listed in the [Targets](#targets) section.|
 |`targets` |All targets of the project.|
-|`presets` |All predefined targets. Use this for [configuring multiple predefined targets](mpp-supported-platforms.md) at once.|
+|`presets` |All predefined targets. Use this for [configuring multiple predefined targets](mpp-dsl-reference.md#targets) at once.|
 |`sourceSets` |Configures predefined and declares custom [source sets](#source-sets) of the project. |
 
 ## Targets
 
 _Target_ is a part of the build responsible for compiling, testing, and packaging a piece of software aimed for 
-one of the [supported platforms](mpp-supported-platforms.md). 
+one of the [supported platforms](mpp-dsl-reference.md#targets). 
 
 Each target can have one or more [compilations](#compilations). In addition to default compilations for
 test and production purposes, you can [create custom compilations](mpp-configure-compilations.md#create-a-custom-compilation).

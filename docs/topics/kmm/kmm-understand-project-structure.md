@@ -158,7 +158,7 @@ kotlin {
 </tabs>
 
 When you write your code, add the dependencies you need to the corresponding source sets.
-Read [Multiplatform documentation on adding dependencies](mpp-add-dependencies.md) for more information.
+Read [Multiplatform documentation on adding dependencies](kmm-add-dependencies.md) for more information.
 
 Along with `*Main` source sets, there are three matching test source sets:
 

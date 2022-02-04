@@ -344,7 +344,7 @@ If the source set `jvmMain` depends on a source set `commonMain` then:
 * Whenever `jvmMain` is compiled for a certain target, `commonMain` takes part in that compilation as well and is also 
 compiled into the same target binary form, such as JVM class files.
 * Sources of `jvmMain` 'see' the declarations of `commonMain`, including internal declarations, and also see the 
-[dependencies](mpp-add-dependencies.md) of `commonMain`, even those specified as `implementation` dependencies.
+[dependencies](kmm-add-dependencies.md) of `commonMain`, even those specified as `implementation` dependencies.
 * `jvmMain` can contain platform-specific implementations for the [expected declarations](mpp-connect-to-apis.md) 
 of `commonMain`.
 * The resources of `commonMain` are always processed and copied along with the resources of `jvmMain`.

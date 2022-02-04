@@ -120,7 +120,7 @@
         <toc-element toc-title="Adding dependencies">
             <toc-element id="kmm-add-dependencies.md"/>
             <toc-element id="kmm-add-android-dependencies.md"/>
-            <toc-element id="kmm-add-ios-dependencies.md"/>
+            <toc-element id="kmm-add-macos-dependencies.md"/>
 
         </toc-element>
         <toc-element id="mpp-run-tests.md" toc-title="Running tests"/>
@@ -334,8 +334,6 @@
             <toc-element toc-title="Participate" id="eap.md"/>
             <toc-element toc-title="Install the Kotlin EAP Plugin" id="install-eap-plugin.md"/>
             <toc-element id="configure-build-for-eap.md"/>
-            <toc-element id="mpp-add-dependencies.md"/>
-            <toc-element id="mpp-supported-platforms.md"/>
         </toc-element>
         <toc-element id="contribute.md"/>
         <toc-element toc-title="Kotlin evolution">

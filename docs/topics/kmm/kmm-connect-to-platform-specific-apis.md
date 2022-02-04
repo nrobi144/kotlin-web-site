@@ -26,7 +26,7 @@ Learn how to [add dependencies on platform-specific libraries](kmm-add-dependenc
 ## Examples
 
 For simplicity, the following examples use the intuitive target names iOS and Android. However, in your Gradle build files, 
-you need to use a specific target name from [the list of supported targets](mpp-supported-platforms.md).
+you need to use a specific target name from [the list of supported targets](mpp-dsl-reference.md#targets).
 
 * [Generate a UUID](#example-generate-a-uuid)
 * [Send and receive messages from a WebSocket](#example-send-and-receive-messages-from-a-websocket)

@@ -25,7 +25,7 @@ We recommend [using CocoaPods](#with-cocoapods) to handle iOS dependencies in Ko
 
 1. Perform [initial CocoaPods integration setup](native-cocoapods.md#set-up-the-environment-to-work-with-cocoapods).
 2. Add a dependency on a Pod library from the CocoaPods repository that you want to use by including the `pod()` function
-call in `build.gradle.kts` (`build.gradle`) of your project.
+   call in `build.gradle.kts` (`build.gradle`) of your project.
 
     <tabs group="build-script">
     <tab title="Kotlin" group-key="kotlin">
@@ -58,7 +58,7 @@ call in `build.gradle.kts` (`build.gradle`) of your project.
     </tab>
     </tabs>
 
-    You can add the following dependencies on a Pod library:
+   You can add the following dependencies on a Pod library:
     * [From the CocoaPods repository](native-cocoapods-libraries.md#from-the-cocoapods-repository)
     * [On a locally stored library](native-cocoapods-libraries.md#on-a-locally-stored-library)
     * [From a custom Git repository](native-cocoapods-libraries.md#from-a-custom-git-repository)
@@ -99,7 +99,7 @@ The steps differ a bit for [libraries](#add-a-library-without-cocoapods) and [fr
     * `headers` describes which headers will be processed by cinterop.
     * `package` sets the name of the package these declarations should be put into.
 
-    For example:
+   For example:
     ```properties
     headers = DateTools.h
     package = DateTools
@@ -185,7 +185,7 @@ import DateTools.*
 5. Provide values for these two mandatory properties:
     * `modules` – the name of the framework that should be processed by the cinterop.
     * `package` – the name of the package these declarations should be put into.
-    For example:
+      For example:
     ```properties
     modules = MyFramework
     package = MyFramework
@@ -194,7 +194,7 @@ import DateTools.*
 6. Add information about interoperability with the framework to the build script:
     * Pass the path to the .def file. This path can be omitted if your `.def` file has the same name as the cinterop and is placed in the `src/nativeInterop/cinterop/` directory.
     * Pass the framework name to the compiler and linker using the `-framework` option.
-    Pass the path to the framework sources and binaries to the compiler and linker using the `-F` option.
+      Pass the path to the framework sources and binaries to the compiler and linker using the `-F` option.
 
     <tabs group="build-script">
     <tab title="Kotlin" group-key="kotlin">
